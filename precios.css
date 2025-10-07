@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+section#precios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tablas-arriba,
+.tablas-abajo {
+  width: 45%; /* Ajusta el ancho de las tablas aquí */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilos de las tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  table-layout: fixed; /* Fijar el ancho de las columnas */
+}
+
+table th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  word-wrap: break-word; /* Envolver texto largo dentro de celdas */
+}
+
+/* Ajuste de posición de precios */
+table td:nth-child(1) {
+  width: 50%; /* Ancho de la primera columna de cada tabla */
+  text-align: left;
+}
+
+table td:nth-child(2) {
+  width: 50%; /* Ancho de la segunda columna de cada tabla */
+  text-align: right;
+}
+
+
+.mi-elemento {
+    font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+  }

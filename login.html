@@ -1,0 +1,220 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <link rel="stylesheet" href="stylee.css">
+
+
+      <title>Pagina web basica</title>
+
+  </head>
+
+
+  <body>
+
+
+      <div class="head">
+
+          <div class="logo">
+              <a href="index.html">Logo</a>
+          </div>
+
+          <nav class="navbar">
+              <a href="index.html">Inicio</a>
+              <a href="nosotros.html">Nosotros</a>
+              <a href="contacto.html">Conacto</a>
+              <a href="productos.html">Productos</a>
+              <a href="precios.html">Precio</a>
+              <a href="login.html">INICIAR SESIÓN</a>
+          </nav>
+
+      </div>
+  <br>
+  <br><br><br><br><br><br><br><br>
+      
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+
+      width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    .business-info {
+      margin-bottom: 20px;
+    }
+    
+    .business-info p {
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+
+  </style>
+  </head>
+  <body>
+
+
+
+      
+  <div class="container">
+
+      
+
+
+
+
+
+
+      <title>Formulario de Inicio de Sesión y Registro</title>
+      <style>
+
+    
+        h2 {
+          color: #333;
+          padding: 30px;
+        }
+    
+        button {
+          padding: 10px 20px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+    
+        form {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+    
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border-radius: 3px;
+          border: 1px solid #ccc;
+        }
+    
+        input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+      </style>
+      <script>
+        function toggleForm(action) {
+          var loginForm = document.getElementById('loginForm');
+          var registerForm = document.getElementById('registerForm');
+    
+          if (action === 'login') {
+            loginForm.style.display = 'block';
+            registerForm.style.display = 'none';
+          } else if (action === 'register') {
+            loginForm.style.display = 'none';
+            registerForm.style.display = 'block';
+          }
+        }
+      </script>
+    </head>
+    <body>
+      <button onclick="toggleForm('login')">Iniciar Sesión</button>
+      <button onclick="toggleForm('register')">Registrarse</button>
+    
+      <div id="loginForm" style="display: none;">
+          <h2>Iniciar Sesión</h2>
+          <form action="login.php" method="POST">
+            <label for="loginUsername">Usuario:</label>
+            <input type="text" id="loginUsername" name="loginUsername" required><br><br>
+            <label for="loginPassword">Contraseña:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required><br><br>
+            <input type="submit" value="Iniciar Sesión">
+          </form>
+        </div>
+        
+        <div id="registerForm" style="display: none;">
+          <h2>Registrarse</h2>
+          <form action="register.php" method="POST">
+            <label for="registerUsername">Usuario:</label>
+            <input type="text" id="registerUsername" name="registerUsername" required><br><br>
+            <label for="registerPassword">Contraseña:</label>
+            <input type="password" id="registerPassword" name="registerPassword" required><br><br>
+            <label for="registerEmail">Email:</label>
+            <input type="email" id="registerEmail" name="registerEmail" required><br><br>
+            <input type="submit" value="Registrarse">
+          </form>
+        </div>
+        
+
+
+  </div>
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+  <br><br><br><br><br><br><br>   
+
+  <br><br><br><br><br><br><br>    
+
+      
+
+      <section class="content contact">
+          <h2 class="title">Contacto</h2>
+          <p>3124774700</p>
+          <footer>
+              <p>&copy; 2023 Pagina de Belleza creado por Miguel Angel Lugo Charry.</p>
+          </footer>
+      </section>
+
+
+  </body>
+
+  </html>
+

@@ -1,0 +1,28 @@
+.product {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .product h3, .product p {
+    margin: 10px 0;
+  }
+  
+  .product .price {
+    font-weight: bold;
+  }
+  .mi-elemento {
+    font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+  }
+  .mi-elemento {
+    font-family: Arial, sans-serif;
+  }
+ 
+  .mi-elemento {
+    font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+  }    

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mi Tienda</title>
+  <link rel="stylesheet" type="text/css" href="productos.css">
+  <meta charset="UTF-8">
+  <style>
+    .mi-elemento {
+      font-family: Arial, sans-serif;
+    }
+
+
+    * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(https://blog.cofike.com/wp-content/uploads/2020/07/plan-de-empresa-centro-de-est%C3%A9tica.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #000000;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(255, 255, 255, 0.5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #000000;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 35px;
+    color: #ffffff;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+}
+  </style>
+</head>
+
+<div class="head">
+
+  <div class="logo">
+      <a href="index.html">Logo</a>
+  </div>
+
+  <nav class="navbar">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Conacto</a>
+      <a href="productos.html">Productos</a>
+      <a href="precios.html">Precio</a>
+      <a href="login.html">INICIAR SESIÓN</a>
+  </nav>
+
+</div>
+
+<body>
+<br><br><br><br><br><br><br>
+  <h2 >SHAMPOO</h2>
+  <div class="product">
+    <img
+      src="https://i0.wp.com/www.jessikaarangomakeup.com/wp-content/uploads/2020/05/shampoo-aussie-aguacate.jpeg?fit=1600%2C1600&ssl=1"
+      alt="Producto 1">
+    <h3>Ausie</h3>
+    <p>Cabello vibrante y sedoso con su fórmula australiana 
+    </p>infundida con ingredientes naturales exóticos.</p>
+    <p class="">$18.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/462906/7501006721133-2.jpg?v=638120973924600000"
+      alt="Producto 2">
+    <h3>Pantene</h3>
+    <p>Hidratación y fortalecimiento para un cabello 
+    </p> suave y brillante.</p>
+    <p class="">$22.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="https://exitocol.vtexassets.com/arquivos/ids/17202011/Shampoo-Head-Shoulders-2en1-Control-Caspa-700ml-935498_b.jpg?v=638155990767100000"
+      alt="Producto 3">
+    <h3>Head & Shoulders</h3>
+    <p>Elimina la caspa y alivia la picazón, cuidando el 
+    </p>cuero cabelludo.</p>
+    <p class="">$20.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/455437-800-600?v=638086384526400000&width=800&height=600&aspect=true"
+      alt="Producto 4">
+    <h3>Herbal Essences</h3>
+    <p>Limpieza refrescante y aroma encantador para un cabello
+    </p> suave y perfumado.</p>
+    <p class="">$16.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://jumbocolombiaio.vtexassets.com/arquivos/ids/188237/7791293002897.jpg?v=637813987422900000"
+      alt="Producto 5">
+    <h3>Dove</h3>
+    <p>Nutrición y reparación para un cabello
+    </p>  sedoso y saludable.</p>
+    <p class="">$25.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/l/-/l-oreal-paris-elvive-extraordinary-oil-intensive-shampoo-400ml.jpg"
+      alt="Producto 6">
+    <h3>L'Oréal Paris</h3>
+    <p>Diversos beneficios según la variante, como hidratación,  
+    </p>reparación o volumen.</p>
+    <p class="">$15.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="Producto 7">
+    <h3>Garnier Fructis</h3>
+    <p>Nutrición y fortalecimiento con extractos de frutas para
+    </p> un cabello vital y brillante.</p>
+    <p class="">$19.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://vixark.b-cdn.net/lp-i-i-g/champ%C3%BA-antica%C3%ADda-tresemme-750ml.jpg" alt="Producto 8">
+    <h3>Tresemme</h3>
+    <p>Limpieza profunda y duradera, proporcionando 
+    </p>volumen y brillo</p>
+    <p class="">$14.000</p>
+  </div>
+
+  
+ 
+
+  
+
+  <h2>CREMAS</h2>
+  <div class="product">
+    <img
+      src="https://vaquitaexpress.com.co/media/catalog/product/cache/e89ece728e3939ca368b457071d3c0be/4/0/4005800137556_34.jpg"
+      alt="Producto 1">
+    <h3>Nivea</h3>
+    <p>Hidratación clásica y versátil para nutrir
+    </p> y suavizar la piel seca, dejándola suave y flexible.</p>
+    <p class="">$25.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://m.media-amazon.com/images/I/61EoBR57REL.jpg" alt="Producto 2">
+    <h3>Olay</h3>
+    <p>Reducción de arrugas y mejora de la apariencia 
+    </p>de la piel, dejándola firme y luminosa.</p>
+    <p class="">$35.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://www.neutrogena.es/sites/neutrogena_es/files/product-images/hb_gel_crema-es.jpg" alt="Producto 3">
+    <h3>Neutrogena</h3>
+    <p>Hidratación duradera y protección solar, ofreciendo 
+    </p>beneficios de cuidado de la piel a largo plazo.</p>
+    <p class="">$30.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://bellapiel.vtexassets.com/arquivos/ids/163826/REF.-3249.jpg?v=638008756581200000" alt="Producto 4">
+    <h3>Cetaphil</h3>
+    <p>Hidratación suave y equilibrada para pieles sensibles 
+    </p>o secas, aliviando la irritación y la picazón.</p>
+    <p class="">$40.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="https://www.laroche-posay.co/-/media/project/loreal/brand-sites/lrp/america/latam/products/toleriane/sensitive-prebiotic-moisturizer/la-roche-posay-productpage-sensitive-allergic-toleriane-sensitive-prebiotic-40ml-3337875578486-front.png?cx=0.44&cy=0.71&cw=600&ch=600&hash=7DDC98A13F9949EDDD14D0039039F64A08984D31"
+      alt="Producto 5">
+    <h3>La Roche-Posay</h3>
+    <p> Cuidado especializado para pieles sensibles, hidratando 
+    </p>y calmando las irritaciones y rojeces.</p>
+    <p class="">$55.000</p>
+  </div>
+
+  <div class="product">
+    <img src="https://static.beautytocare.com/media/catalog/product/a/v/aveeno-daily-moisturising-lotion-300ml_5.jpg"
+      alt="Producto 6">
+    <h3>Aveeno</h3>
+    <p>Nutrición natural para calmar la sequedad y 
+    </p>nutrir la piel, dejándola suave y saludable.</p>
+    <p class="">$28.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="Producto 7">
+    <h3>Pond's</h3>
+    <p>Hidratación y rejuvenecimiento facial, reduciendo 
+    </p>la apariencia de arrugas y líneas finas.</p>
+    <p class="">$20.000</p>
+  </div>
+
+  <div class="product">
+    <img
+      src="https://images-2.eucerin.com/~/media/eucerin%20relaunch%20media/eucerin/local/latam/sales%20visuals/hyaluron%20filler%20x3/hyaluron-filler-x3/63485_hyaluron%20filler%20crema%20de%20dia%20fps%2015/latam_sp_ecn_63485_hyaluronfiller_crema_de_dia_fps15_sv_product.jpg"
+      alt="Producto 8">
+    <h3>Eucerin</h3>
+    <p>Hidratación profunda y alivio para pieles secas y 
+    </p>sensibles, restaurando su salud y vitalidad.</p>
+    <p class="">$38.000</p>
+  </div>
+
+ 
+  <section class="content contact">
+    <h2 class="title">Contacto</h2>
+    <p style="color: #fff; padding-bottom: 50px;">3124774700</p>
+    <footer>
+        <p style="color: #fff;">&copy; 2023 Pagina de Belleza creado por Miguel Angel Lugo Charry.</p>
+    </footer>
+</section>
+ 
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,70 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la tabla de precios */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
